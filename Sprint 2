@@ -1,0 +1,52 @@
+# Sprint 2: Technische Umsetzung und erster Prototyp
+
+## Ziel des Sprints
+- Die grundlegende Website-Struktur erstellen und erste Kernfunktionen implementieren.  
+- Einen klickbaren Prototypen bereitstellen, um das Konzept zu testen.  
+
+---
+
+## Sprint Backlog (Aufgabenliste)
+
+### 1. Grundlegende Struktur und Layout
+- **HTML-Gerüst erstellen**: Aufbau der Grundstruktur für alle Hauptseiten (z. B. Startseite, Produktseite, Kontaktseite).  
+- **CSS-Styling implementieren**: Anwendung der in Sprint 1 definierten Farbpalette, Schriftarten und des Stils.  
+- **Navigation umsetzen**: Einfache Menüstruktur mit Links zwischen den Seiten.  
+
+---
+
+### 2. Erste Funktionen entwickeln
+- **Kontaktformular**:  
+  - HTML-Formular mit Eingabefeldern (Name, E-Mail, Nachricht).   
+- **Produktkatalog**:  
+  - Platzhalter für Produkte (z. B. Karten oder Bilder) mit Überschrift und Beschreibung.  
+- **Interaktive Elemente hinzufügen**:  
+  - Erste Animationen für das Layout oder Hover-Effekte in CSS.  
+
+---
+
+### 3. Technische Basis schaffen
+- **Hosting vorbereiten**:  
+  - Lokale Entwicklungsumgebung (z. B. XAMPP) einrichten und den Code testen.  
+- **Versionierung auf GitHub**:  
+  - Hauptentwicklungsbranch einrichten und ein sinnvolles Branching-Modell verwenden (z. B. `main`, `sprints`).  
+- **Responsives Design sicherstellen**:  
+  - Media Queries in CSS hinzufügen, um die Website mobilfreundlich zu machen.  
+
+---
+
+### 4. Tests und Debugging
+- **Funktionstest der ersten Prototypen**:  
+  - Überprüfung der Navigation, Ladezeiten und Benutzerfreundlichkeit.  
+- **Fehler beheben**:  
+  - Identifizierte Probleme aus der ersten Testphase priorisieren und lösen.  
+
+---
+
+## Abschluss des Sprints
+- **Prototyp vorstellen**:  
+  - Den aktuellen Stand präsentieren und Feedback sammeln.  
+- **Nächste Schritte planen**:  
+  - Aufgaben für Sprint 3 priorisieren (z. B. erweiterte Funktionen, Inhalte einfügen, Backend-Integration).  
+
+---
