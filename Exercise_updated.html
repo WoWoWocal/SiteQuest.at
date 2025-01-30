@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SiteQuest</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #000000;
-            color: white;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #000000;
+            background-color: #2a2a2a;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
             position: relative;
         }
         header img {
@@ -28,88 +29,81 @@
             height: 150px;
         }
         nav {
-            background-color: #000000;
-            overflow: hidden;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
         }
         nav a {
-            background-color: #000000;
             color: white;
-            padding: 14px 20px;
+            padding: 10px 20px;
             text-decoration: none;
-            float: left;
+            transition: 0.3s;
         }
         nav a:hover {
-            background-color: #ddd;
-            color: rgb(255, 255, 255);
+            background-color: #555;
+            border-radius: 5px;
         }
         main {
-            padding: 20px;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            background: #2a2a2a;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        hr {
+            border: 1px solid #444;
         }
         footer {
-            background-color: #000000;
+            background-color: #222;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;#
-            header {
-            display: flex;
-            align-items: center;
-        }
-        header img {
-            margin-right: 10px;
-            height: 200px;
-        }
+            padding: 15px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="nobackground.png" width="200" height="50" alt="SiteQuest Logo">
-        <h1>SiteQuest</h1>
+        <img src="nobackground.png" alt="SiteQuest Logo">
+        SiteQuest
     </header>
-
     <nav>
-      <hr width=100%>
-      <br>
         <a href="#about">Über uns</a>
-      
         <a href="#services">Shop</a>
         <a href="#contact">Kontakt</a>
-	 <a href="#warenkorb"><i class="fas fa-shopping-cart"></i></a>
-
+        <a href="#warenkorb"><i class="fas fa-shopping-cart"></i></a>
     </nav>
-
     <main>
         <section id="about">
             <h2>Über uns</h2>
-          <hr>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-          <hr>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
         </section>
-
         <section id="services">
             <h2>Shop</h2>
-          <hr>
+            <hr>
             <p>Hier werden wir in Zukunft unsere Produkte vorstellen und diese werden dann auch zum Kaufen erhältlich sein.</p>
-          <hr>
         </section>
-
         <section id="contact">
             <h2>Kontakt</h2>
-          <hr>
-            
+            <hr>
             <p>Robin Lehner</p>
             <p>Tino Tomasic</p>
             <p>Calvin Wohland</p>
-          <p>Daniel Bendra</p>
-          
+            <p>Daniel Bendra</p>
         </section>
     </main>
-  <hr
-
     <footer>
+        &copy; 2025 SiteQuest.at - Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
+
         <p>&copy; 2025 SiteQuest.at - Alle Rechte vorbehalten.</p>
     </footer>
 </body>
