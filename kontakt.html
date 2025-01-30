@@ -3,88 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt - SiteQuest</title>
+    <title>Shop - SiteQuest</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #000000;
-            color: white;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #000000;
+            background-color: #2a2a2a;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
         }
         nav {
-            background-color: #000000;
-            overflow: hidden;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
         }
         nav a {
-            background-color: #000000;
             color: white;
-            padding: 14px 20px;
+            padding: 10px 20px;
             text-decoration: none;
-            float: left;
+            transition: 0.3s;
         }
         nav a:hover {
-            background-color: #ddd;
-            color: rgb(255, 255, 255);
+            background-color: #555;
+            border-radius: 5px;
         }
         main {
-            padding: 20px;
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: #2a2a2a;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
         }
-        .contact-info {
-            margin-bottom: 20px;
+        .product {
+            display: flex;
+            align-items: center;
+            border: 1px solid #444;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            background: #3a3a3a;
         }
-        .contact-info p {
+        .product img {
+            width: 120px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            color: #fff;
+        }
+        .product p {
             margin: 5px 0;
+            color: #ddd;
+        }
+        .product button {
+            background-color: #d9534f;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .product button:hover {
+            background-color: #c9302c;
         }
         footer {
-            background-color: #000000;
+            background-color: #222;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 15px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Kontakt</h1>
+        Shop
     </header>
-
     <nav>
-      <hr width=100%>
         <a href="#about">Über uns</a>
-        <a href="#services">Shop</a>
-        <a href="#contact" class="active">Kontakt</a>
+        <a href="#services" class="active">Shop</a>
+        <a href="#contact">Kontakt</a>
         <a href="#warenkorb"><i class="fas fa-shopping-cart"></i></a>
     </nav>
-
     <main>
-        <h2>Kontaktieren Sie uns</h2>
-        <div class="contact-info">
-            <p><strong>Adresse:</strong> Irg a adresse, Österreich</p>
-            <p><strong>Telefon:</strong> +43 123 456 789</p>
-            <p><strong>Email:</strong> <a href="mailto:info@sitequest.at" style="color: white;">info@sitequest.at</a></p>
+        <h2>Unsere Produkte</h2>
+        <div class="product">
+            <img src="hoodie.jpg" alt="Hoodie">
+            <div>
+                <h3>Hoodie</h3>
+                <p>Preis: €29,99</p>
+                <p>Ein gemütlicher Hoodie für jeden Anlass.</p>
+                <button>In den Warenkorb</button>
+            </div>
         </div>
-        <h2>Unser Team</h2>
-        <div class="contact-info">
-            <p><strong>Robin Lehner</strong> </p>
-            <p><strong>Tino Tomasic</strong> </p>
-            <p><strong>Calvin Wohland</strong> </p>
-            <p><strong>Daniel Bendra</strong></p>
+        <div class="product">
+            <img src="shoes.jpg" alt="Schuhe">
+            <div>
+                <h3>Schuhe</h3>
+                <p>Preis: €49,99</p>
+                <p>Stilvolle und bequeme Schuhe für den Alltag.</p>
+                <button>In den Warenkorb</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="tshirt.jpg" alt="T-Shirt">
+            <div>
+                <h3>T-Shirt</h3>
+                <p>Preis: €19,99</p>
+                <p>Ein klassisches T-Shirt in verschiedenen Farben.</p>
+                <button>In den Warenkorb</button>
+            </div>
         </div>
     </main>
-
     <footer>
-        <p>&copy; 2025 SiteQuest.at - Alle Rechte vorbehalten.</p>
+        &copy; 2025 SiteQuest.at - Alle Rechte vorbehalten.
     </footer>
 </body>
 </html>
